@@ -1,0 +1,74 @@
+body {
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    background-color: #1e2a38;
+    color: #000000;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #243447;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+h1, h2 {
+    text-align: center;
+    color: #f8f8f8;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #f0f0f0;
+}
+
+input, select, button {
+    padding: 10px;
+    width: calc(100% - 22px);
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #34495e;
+    color: #f0f0f0;
+}
+
+button {
+    background-color: #2980b9;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #3498db;
+}
+
+#memoryGrid {
+    display: flex;
+    margin-top: 20px;
+    height: 50px;
+    border: 1px solid #f0f0f0;
+}
+
+#waitingList, #lostMemory {
+    margin-top: 10px;
+}
+
+.notification {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.notification.info { background-color: #3498db; }
+.notification.error { background-color: #e74c3c; }
+.notification.success { background-color: #2ecc71; }
